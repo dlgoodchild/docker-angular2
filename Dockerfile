@@ -7,4 +7,6 @@ RUN npm install -g angular-cli
 
 ENTRYPOINT ["/sbin/tini", "--"]
 
+EXPOSE 4200
+
 WORKDIR /home/dev/workspace
